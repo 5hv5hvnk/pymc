@@ -197,3 +197,5 @@ def simple_normal(bounded_prior=False):
         pm.Normal("X_obs", mu=mu_i, sigma=sigma, observed=x0)
 
     return model.initial_point(), model, None
+
+
